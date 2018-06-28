@@ -1,0 +1,6 @@
+			rho		theta
+rocks01		221.0	91.9999980066737
+rocks02		448.0	45.00000125223908
+scenery14
+opencountry_land298
+city06	

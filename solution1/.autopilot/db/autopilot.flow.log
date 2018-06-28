@@ -1,0 +1,241 @@
+INFO: [HLS 200-0] Workspace C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/solution1 opened at Thu Jun 28 14:17:47 +0900 2018
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Command     config_clock returned 0; 0 sec.
+Execute     open_platform DefaultPlatform 
+Command     open_platform returned 0; 0 sec.
+Execute     import_lib C:/Xilinx/Vivado/2018.1/common/technology/xilinx/zynquplus/zynquplus 
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx.lib 
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/plb46.lib 
+Command           ap_source returned 0; 0 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/fsl.lib 
+Command           ap_source returned 0; 0 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/axi4.lib 
+Command           ap_source returned 0; 0 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/maxi.lib 
+Command           ap_source returned 0; 0.001 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/saxilite.lib 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0.002 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/dsp48.lib 
+Command         ap_source returned 0; 0 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/ip/dds_compiler.lib 
+Command         ap_source returned 0; 0 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/ip/xfft.lib 
+Command         ap_source returned 0; 0 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/ip/xfir.lib 
+Command         ap_source returned 0; 0.001 sec.
+Command       ap_source returned 0; 0.005 sec.
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx_old.lib 
+Command       ap_source returned 0; 0.001 sec.
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx_vivado.lib 
+Command       ap_source returned 0; 0.001 sec.
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/target_info.tcl 
+Command         ap_source returned 0; 0.001 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/maxi.hlp 
+Command           ap_source returned 0; 0 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/saxilite.hlp 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/dsp48.hlp 
+Command         ap_source returned 0; 0.001 sec.
+Command       ap_source returned 0; 0.005 sec.
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/zynquplus/dsp48e2.hlp 
+Command       ap_source returned 0; 0 sec.
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Execute       config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
+Command       config_chip_info returned 0; 0 sec.
+Execute       config_chip_info -quiet -speed medium 
+Command       config_chip_info returned 0; 0 sec.
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx.hlp 
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/target_info.tcl 
+Command         ap_source returned 0; 0.001 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/maxi.hlp 
+Command           ap_source returned 0; 0 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/saxilite.hlp 
+Command           ap_source returned 0; 0 sec.
+Command         ap_source returned 0; 0 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/dsp48.hlp 
+Command         ap_source returned 0; 0.001 sec.
+Command       ap_source returned 0; 0.004 sec.
+Command     import_lib returned 0; 0.022 sec.
+Execute     source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/zynquplus/zynquplus.gen 
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/virtex.gen 
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx.gen 
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/plb46.gen 
+Command           ap_source returned 0; 0.002 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/fsl.gen 
+Command           ap_source returned 0; 0 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/axi4.gen 
+Command           ap_source returned 0; 0.002 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/saxilite.gen 
+Command             ap_source returned 0; 0.003 sec.
+Execute             source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/maxi.gen 
+Command             ap_source returned 0; 0.008 sec.
+Command           ap_source returned 0; 0.011 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Command           ap_source returned 0; 0.012 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Command           ap_source returned 0; 0.01 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/ip/dds_compiler.gen 
+Command           ap_source returned 0; 0.003 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/ip/util.gen 
+Command           ap_source returned 0; 0.001 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source returned 0; 0.1 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/ip/xfir.gen 
+Command           ap_source returned 0; 0.001 sec.
+Command         ap_source returned 0; 0.143 sec.
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/dsp48.gen 
+Command         ap_source returned 0; 0 sec.
+Command       ap_source returned 0; 0.145 sec.
+Command     ap_source returned 0; 0.145 sec.
+Execute     open_platform DefaultPlatform 
+Command     open_platform returned 0; 0 sec.
+Execute     import_lib C:/Xilinx/Vivado/2018.1/common/technology/xilinx/zynquplus/zynquplus_fpv7 
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx_hp.lib 
+Command         ap_source returned 0; 0.001 sec.
+Command       ap_source returned 0; 0.004 sec.
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx.hlp 
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/target_info.tcl 
+Command           ap_source returned 0; 0.032 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/maxi.hlp 
+Command             ap_source returned 0; 0 sec.
+Execute             source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/interface/saxilite.hlp 
+Command             ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0 sec.
+Execute           source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/dsp48.hlp 
+Command           ap_source returned 0; 0.001 sec.
+Command         ap_source returned 0; 0.035 sec.
+Command       ap_source returned 0; 0.037 sec.
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/zynquplus/zynquplus_hp.hlp 
+Command       ap_source returned 0; 0.002 sec.
+Command     import_lib returned 0; 0.052 sec.
+Execute     source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
+Execute       source C:/Xilinx/Vivado/2018.1/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0.002 sec.
+Command     ap_source returned 0; 0.002 sec.
+Execute     set_part xczu9eg-ffvb1156-2-i 
+Execute       add_library xilinx/zynquplus/zynquplus:xczu9eg:-ffvb1156:-2-i 
+Execute         get_default_platform 
+Command         get_default_platform returned 0; 0 sec.
+Execute         license_isbetapart xczu9eg 
+Command         license_isbetapart returned 1; 0.009 sec.
+Execute         get_default_platform 
+Command         get_default_platform returned 0; 0 sec.
+Execute         config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
+Command         config_chip_info returned 0; 0 sec.
+Execute         config_chip_info -quiet -speed medium 
+Command         config_chip_info returned 0; 0 sec.
+Command       add_library returned 0; 0.055 sec.
+Execute       add_library xilinx/zynquplus/zynquplus_fpv7 
+Execute         get_default_platform 
+Command         get_default_platform returned 0; 0 sec.
+Command       add_library returned 0; 0.002 sec.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-i'
+Execute       get_default_platform 
+Command       get_default_platform returned 0; 0 sec.
+Command     set_part returned 0; 0.129 sec.
+Execute     get_default_platform 
+Command     get_default_platform returned 0; 0 sec.
+Execute     config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
+Command     config_chip_info returned 0; 0 sec.
+Execute     config_chip_info -quiet -speed medium 
+Command     config_chip_info returned 0; 0 sec.
+Command   open_solution returned 0; 0.381 sec.
+Execute   csim_design -O -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Command     ap_source returned 0; 0.001 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/bmp_header.h 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/bmp_header.h 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/city06.bmp 
+Command     is_encrypted returned 0; 0.001 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/city06.bmp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/hough_tb.cpp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/hough_tb.cpp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/opencountry_land298.bmp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/opencountry_land298.bmp 
+Command     is_xip returned 0; 0.001 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/rocks01.bmp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/rocks01.bmp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/rocks02.bmp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/rocks02.bmp 
+Command     is_xip returned 0; 0.001 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/scenery14.bmp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/scenery14.bmp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/scenery18.bmp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/scenery18.bmp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/sub.h 
+Command     is_encrypted returned 0; 0.001 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/sub.h 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/PE.h 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/PE.h 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/PE2.h 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/PE2.h 
+Command     is_xip returned 0; 0.001 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/PE_func.cpp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/PE_func.cpp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/fil.cpp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/fil.cpp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/fil.h 
+Command     is_encrypted returned 0; 0.001 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/fil.h 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/hough.cpp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/hough.cpp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/hough_class.cpp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/hough_class.cpp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/im_top.cpp 
+Command     is_encrypted returned 0; 0.001 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/im_top.cpp 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/rle3.cpp 
+Command     is_encrypted returned 0; 0 sec.
+Execute     is_xip C:/Users/Arakawa/Documents/vivadoHLS/hough_sim/hough_sim/rle3.cpp 
+Command     is_xip returned 0; 0 sec.
+Execute     get_default_platform 
+Command     get_default_platform returned 0; 0 sec.
+Execute     source run_sim.tcl 
+Command     ap_source returned 0; 3.561 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design returned 0; 18.528 sec.
+Command ap_source returned 0; 18.917 sec.
+Execute cleanup_all 
+Command cleanup_all returned 0; 0 sec.

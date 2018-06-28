@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="PE.h" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\PE.h"/>
+    <originFiles name="PE2.h" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\PE2.h"/>
+    <originFiles name="PE_func.cpp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\PE_func.cpp"/>
+    <originFiles name="fil.cpp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\fil.cpp"/>
+    <originFiles name="fil.h" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\fil.h"/>
+    <originFiles name="hough.cpp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\hough.cpp"/>
+    <originFiles name="hough_class.cpp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\hough_class.cpp"/>
+    <originFiles name="im_top.cpp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\im_top.cpp"/>
+    <originFiles name="rle3.cpp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\rle3.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="bmp_header.h" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\bmp_header.h"/>
+    <originFiles name="city06.bmp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\city06.bmp"/>
+    <originFiles name="hough_tb.cpp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\hough_tb.cpp"/>
+    <originFiles name="opencountry_land298.bmp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\opencountry_land298.bmp"/>
+    <originFiles name="rocks01.bmp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\rocks01.bmp"/>
+    <originFiles name="rocks02.bmp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\rocks02.bmp"/>
+    <originFiles name="scenery14.bmp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\scenery14.bmp"/>
+    <originFiles name="scenery18.bmp" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\scenery18.bmp"/>
+    <originFiles name="sub.h" path="C:\Users\Arakawa\Documents\vivadoHLS\hough_sim\hough_sim\sub.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
